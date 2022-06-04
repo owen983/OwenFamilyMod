@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "HHH",
+    "H-H",
+    "HHH"
+  ],
+  "key": {
+    "H": {
+      "item": "minecraft:honeycomb"
+    },
+    "-": {
+      "item": "minecraft:beehive"
+    }
+  },
+  "result": {
+    "item": "owenfamilymod:owen_beekeeper_block"
+  }
+}
