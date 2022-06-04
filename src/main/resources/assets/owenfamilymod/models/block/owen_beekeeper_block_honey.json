@@ -4,7 +4,7 @@
     "top": "owenfamilymod:block/owen_beekeeper_block_end",
     "bottom": "owenfamilymod:block/owen_beekeeper_block_end",
     "side": "owenfamilymod:block/owen_beekeeper_block_side",
-    "front": "owenfamilymod:block/owen_beekeeper_block_front",
+    "front": "owenfamilymod:block/owen_beekeeper_block_front_honey",
     "particle": "owenfamilymod:block/owen_beekeeper_block_side"
   }
 }
