@@ -6,6 +6,7 @@ import com.owen983.owenfamilymod.block.ModBlocks;
 import net.fabricmc.fabric.mixin.object.builder.PointOfInterestTypeAccessor;
 import net.fabricmc.fabric.mixin.object.builder.VillagerProfessionAccessor;
 import net.minecraft.block.Block;
+import net.minecraft.block.Blocks;
 import net.minecraft.sound.SoundEvents;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
@@ -14,8 +15,8 @@ import net.minecraft.world.poi.PointOfInterestType;
 
 public class ModVillagers {
 
-    public static final PointOfInterestType BEEKEEPER_POI = registerPOI("beekeeperpoi", ModBlocks.OWEN_BEEKEEPER_BLOCK);
-    public static final VillagerProfession BEEKEEPER = registerProfession("beekeeper", BEEKEEPER_POI);
+   // public static final PointOfInterestType BEEKEEPER_POI = registerPOI("beekeeperpoi", ModBlocks.OWEN_BEEKEEPER_BLOCK);
+    public static final VillagerProfession BEEKEEPER = registerProfession("beekeeper", PointOfInterestType.BEEHIVE);
 
     public static VillagerProfession registerProfession(String name, PointOfInterestType type) {
         return Registry.register(Registry.VILLAGER_PROFESSION, new Identifier(OwenFamilyMod.MOD_ID, name),
@@ -31,6 +32,6 @@ public class ModVillagers {
 
     public static void setupPOIs() {
         OwenFamilyMod.LOGGER.info("calling setupPOIs for " + OwenFamilyMod.MOD_ID);
-        PointOfInterestTypeAccessor.callSetup(BEEKEEPER_POI);
+        //PointOfInterestTypeAccessor.callSetup(BEEKEEPER_POI);
     }
 }
