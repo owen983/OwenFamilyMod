@@ -28,21 +28,12 @@ public class ModRegistries {
 
     private static void registerCustomTrades() {
 
-
-        chance = new Random().nextFloat();
-        OwenFamilyMod.LOGGER.info("level 1 trade random: [" + chance + "] for " + OwenFamilyMod.MOD_ID);
         registerBeeKeeperLevel1Trades();
 
-        chance = new Random().nextFloat();
-        OwenFamilyMod.LOGGER.info("level 2 trade random: [" + chance + "] for " + OwenFamilyMod.MOD_ID);
         registerBeeKeeperLevel2Trades();
 
-        chance = new Random().nextFloat();
-        OwenFamilyMod.LOGGER.info("level 3 trade random: [" + chance + "] for " + OwenFamilyMod.MOD_ID);
         registerBeeKeeperLevel3Trades();
 
-        chance = new Random().nextFloat();
-        OwenFamilyMod.LOGGER.info("level 4 trade random: [" + chance + "] for " + OwenFamilyMod.MOD_ID);
         registerBeeKeeperLevel4Trades();
 
         registerBeeKeeperLevel5Trades();
