@@ -1,6 +1,7 @@
 package com.owen983.owenfamilymod;
 
 import com.owen983.owenfamilymod.block.ModBlocks;
+import com.owen983.owenfamilymod.util.ModRegistries;
 import com.owen983.owenfamilymod.villager.ModVillagers;
 import net.fabricmc.api.ModInitializer;
 import org.slf4j.Logger;
@@ -22,5 +23,6 @@ public class OwenFamilyMod implements ModInitializer {
         LOGGER.info("Hello Fabric world!");
         ModBlocks.registerModBlocks();
         ModVillagers.setupPOIs();
+        ModRegistries.registerModStuffs();
     }
 }
