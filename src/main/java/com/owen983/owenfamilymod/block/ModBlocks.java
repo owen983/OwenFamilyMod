@@ -16,7 +16,7 @@ import net.minecraft.util.registry.Registry;
 public class ModBlocks {
 
     public static final Block OWEN_BEEKEEPER_BLOCK = registerBlock("owen_beekeeper_block",
-            new BeehiveBlock(FabricBlockSettings.copyOf(Blocks.BEEHIVE).strength(5f).requiresTool()),
+            new BeehiveBlock(FabricBlockSettings.copyOf(Blocks.BEEHIVE)),
             ItemGroup.MISC);
 
     private static Block registerBlock(String name, Block block, ItemGroup itemGroup){

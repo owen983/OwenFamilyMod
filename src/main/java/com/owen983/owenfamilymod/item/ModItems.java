@@ -11,7 +11,7 @@ import net.minecraft.util.registry.Registry;
 
 public class ModItems {
 
-    public static final Item BAR_BRAWL_MUSIC_DISC = registerItem("songs_of_the_hills",
+    public static final Item MUSIC_DISC_HILLS = registerItem("songs_of_the_hills",
             new ModMusicDiscItem(7, ModSounds.SONGS_OF_THE_HILLS,
                     new FabricItemSettings().group(ItemGroup.MISC).maxCount(1)));
 

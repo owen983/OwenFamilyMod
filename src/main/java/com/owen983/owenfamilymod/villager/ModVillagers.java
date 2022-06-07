@@ -35,6 +35,6 @@ public class ModVillagers {
 
     public static void setupPOIs() {
         OwenFamilyMod.LOGGER.info("calling setupPOIs for " + OwenFamilyMod.MOD_ID);
-        PointOfInterestTypeAccessor.callSetup(BEEKEEPER_POI);
+        //PointOfInterestTypeAccessor.callSetup(BEEKEEPER_POI);
     }
 }
