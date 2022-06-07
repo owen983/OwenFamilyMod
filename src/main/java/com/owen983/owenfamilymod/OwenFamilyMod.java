@@ -1,6 +1,7 @@
 package com.owen983.owenfamilymod;
 
 import com.owen983.owenfamilymod.block.ModBlocks;
+import com.owen983.owenfamilymod.item.ModItems;
 import com.owen983.owenfamilymod.util.ModRegistries;
 import com.owen983.owenfamilymod.villager.ModVillagers;
 import net.fabricmc.api.ModInitializer;
@@ -21,6 +22,7 @@ public class OwenFamilyMod implements ModInitializer {
         // Proceed with mild caution.
 
         LOGGER.info("Hello Fabric world!");
+        ModItems.registerModItems();
         ModBlocks.registerModBlocks();
         ModVillagers.setupPOIs();
         ModRegistries.registerModStuffs();

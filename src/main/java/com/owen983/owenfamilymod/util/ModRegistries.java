@@ -51,7 +51,7 @@ public class ModRegistries {
                     factories.add((entity, random) ->
                             new TradeOffer(new ItemStack(Items.EMERALD, 2),
                                     new ItemStack(Items.SUNFLOWER, 1),
-                                    7, 5, 0.93f));
+                                    7, 5, 0.18f));
                 });
     }
 
@@ -75,11 +75,11 @@ public class ModRegistries {
                     factories.add((entity, random) ->
                             new TradeOffer(new ItemStack(Items.EMERALD, 9),
                                     shears_to_enchant,
-                                    8, 5, 0.35f));
+                                    8, 2, 0.02f));
                     factories.add((entity, random) ->
                             new TradeOffer(new ItemStack(Items.EMERALD, 7),
                                     new ItemStack(Items.BEE_NEST, 1),
-                                    8, 2, 0.72f));
+                                    8, 3, 0.015f));
                 });
     }
 
@@ -90,15 +90,15 @@ public class ModRegistries {
                     factories.add((entity, random) ->
                             new TradeOffer(new ItemStack(Items.SUGAR, 13),
                                     new ItemStack(Items.EMERALD, 2),
-                                    6, 6, 0.51f));
+                                    6, 6, 0.01f));
                     factories.add((entity, random) ->
                             new TradeOffer(new ItemStack(Items.BONE_MEAL, 15),
                                     new ItemStack(Items.EMERALD, 4),
-                                    6, 8, 0.44f));
+                                    6, 8, 0.02f));
                     factories.add((entity, random) ->
                             new TradeOffer(new ItemStack(Items.HONEY_BLOCK, 8),
                                     new ItemStack(Items.EMERALD, 1),
-                                    6, 1, 0.61f));
+                                    6, 1, 0.03f));
                 });
     }
 
@@ -109,15 +109,15 @@ public class ModRegistries {
                     factories.add((entity, random) ->
                             new TradeOffer(new ItemStack(Items.OAK_PLANKS, 7),
                                     new ItemStack(Items.EMERALD, 2),
-                                    6, 4, 0.99f));
+                                    6, 4, 0.01f));
                     factories.add((entity, random) ->
                             new TradeOffer(new ItemStack(Items.EMERALD, 13),
                                     new ItemStack(Items.GLASS_BOTTLE, 4),
-                                    8, 5, 0.78f));
+                                    8, 5, 0.02f));
                     factories.add((entity, random) ->
                             new TradeOffer(new ItemStack(Items.EMERALD, 4),
                                     new ItemStack(Items.CAMPFIRE, 1),
-                                    8, 4, 0.32f));
+                                    8, 4, 0.015f));
                 });
     }
 
@@ -129,19 +129,19 @@ public class ModRegistries {
                     factories.add((entity, random) ->
                             new TradeOffer(new ItemStack(Items.HONEYCOMB, 3),
                                     new ItemStack(Items.EMERALD, 1),
-                                    6, 3, 0.42f));
+                                    6, 3, 0.02f));
                     factories.add((entity, random) ->
                             new TradeOffer(new ItemStack(Items.CHARCOAL, 8),
                                     new ItemStack(Items.EMERALD, 1),
-                                    6, 8, 0.31f));
+                                    6, 8, 0.03f));
                     factories.add((entity, random) ->
                             new TradeOffer(new ItemStack(Items.STICK, 15),
                                     new ItemStack(Items.EMERALD, 1),
-                                    8, 5, 0.87f));
+                                    8, 5, 0.025f));
                     factories.add((entity, random) ->
                             new TradeOffer(new ItemStack(Items.EMERALD, 7),
                                     new ItemStack(Items.SHEARS, 1),
-                                    8, 5, 0.75f));
+                                    8, 5, 0.4f));
                 });
 
 

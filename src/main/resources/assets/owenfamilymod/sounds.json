@@ -1,0 +1,10 @@
+{
+  "songs_of_the_hills":{
+    "sounds": [
+      {
+        "name": "owenfamilymod:songs_of_the_hills",
+        "stream": true
+      }
+    ]
+  }
+}
