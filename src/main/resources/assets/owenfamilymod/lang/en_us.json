@@ -1,5 +1,8 @@
 {
   "block.owenfamilymod.owen_beekeeper_block": "BeeKeeper Job Block",
-  "entity.minecraft.villager.beekeeper": "Beekeeper"
 
+  "item.owenfamilymod.songs_of_the_hills": "Songs of the Hills",
+  "item.owenfamilymod.songs_of_the_hills.desc": "Go where the Music takes you!",
+
+  "entity.minecraft.villager.beekeeper": "Beekeeper"
 }
