@@ -23,7 +23,7 @@ public class ModRegistries {
 
     public static void registerModStuffs() {
         OwenFamilyMod.LOGGER.info("in registerModStuffs for " + OwenFamilyMod.MOD_ID);
-        registerCustomTrades();
+        //registerCustomTrades();
     }
 
     private static void registerCustomTrades() {
