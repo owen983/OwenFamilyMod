@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:iron_pickaxe"
+    },
+    "title": "Music!",
+    "description": "A reward for going where the music takes you",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "owenfamilymod:owenfamilymod",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "owenfamilymod:songs_of_the_hills"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}
