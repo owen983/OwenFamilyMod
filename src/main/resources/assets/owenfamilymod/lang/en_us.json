@@ -1,8 +1,16 @@
 {
   "block.owenfamilymod.owen_beekeeper_block": "BeeKeeper Job Block",
 
+  "item.owenfamilymod.beekeeper_suit_helmet": "Beekeeper Helmet",
+  "item.owenfamilymod.beekeeper_suit_chestplate": "Beekeeper Chestplate",
+  "item.owenfamilymod.beekeeper_suit_leggings": "Beekeeper Leggings",
+  "item.owenfamilymod.beekeeper_suit_boots": "Beekeeper Boots",
+
+
   "item.owenfamilymod.songs_of_the_hills": "Songs of the Hills",
   "item.owenfamilymod.songs_of_the_hills.desc": "Go where the Music takes you!",
+
+  "itemGroup.owenfamilymod.beekeeper": "Beekeeper Tab",
 
   "entity.minecraft.villager.beekeeper": "Beekeeper"
 }
