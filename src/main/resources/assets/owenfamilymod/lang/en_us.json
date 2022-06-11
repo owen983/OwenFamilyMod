@@ -10,5 +10,7 @@
   "item.owenfamilymod.songs_of_the_hills": "Songs of the Hills",
   "item.owenfamilymod.songs_of_the_hills.desc": "Go where the Music takes you!",
 
+  "itemGroup.owenfamilymod.beekeeper": "Beekeeper Tab",
+
   "entity.minecraft.villager.beekeeper": "Beekeeper"
 }

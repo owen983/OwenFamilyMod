@@ -19,16 +19,16 @@ public class ModItems {
 
     public static final Item BEEKEEPER_SUIT_HELMET = registerItem("beekeeper_suit_helmet",
             new ArmorItem(ModArmorMaterials.WHITE_COTTON_CANVAS, EquipmentSlot.HEAD,
-                    new FabricItemSettings().group(ItemGroup.MISC).maxDamage(5)));
+                    new FabricItemSettings().group(ModItemGroup.BEEKEEPER).maxDamage(5)));
     public static final Item BEEKEEPER_SUIT_CHESTPLATE = registerItem("beekeeper_suit_chestplate",
             new ArmorItem(ModArmorMaterials.WHITE_COTTON_CANVAS, EquipmentSlot.CHEST,
-                    new FabricItemSettings().group(ItemGroup.MISC).maxDamage(5)));
+                    new FabricItemSettings().group(ModItemGroup.BEEKEEPER).maxDamage(5)));
     public static final Item BEEKEEPER_SUIT_LEGGINGS = registerItem("beekeeper_suit_leggings",
             new ArmorItem(ModArmorMaterials.WHITE_COTTON_CANVAS, EquipmentSlot.LEGS,
-                    new FabricItemSettings().group(ItemGroup.MISC).maxDamage(5)));
+                    new FabricItemSettings().group(ModItemGroup.BEEKEEPER).maxDamage(5)));
     public static final Item BEEKEEPER_SUIT_BOOTS = registerItem("beekeeper_suit_boots",
             new ArmorItem(ModArmorMaterials.WHITE_COTTON_CANVAS, EquipmentSlot.FEET,
-                    new FabricItemSettings().group(ItemGroup.MISC).maxDamage(5)));
+                    new FabricItemSettings().group(ModItemGroup.BEEKEEPER).maxDamage(5)));
 
 
     private static Item registerItem(String name, Item item) {
