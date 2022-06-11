@@ -7,6 +7,7 @@ import net.fabricmc.fabric.mixin.object.builder.PointOfInterestTypeAccessor;
 import net.fabricmc.fabric.mixin.object.builder.VillagerProfessionAccessor;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
+import net.minecraft.item.Items;
 import net.minecraft.sound.SoundEvents;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
@@ -21,7 +22,9 @@ public class ModVillagers {
     public static VillagerProfession registerProfession(String name, PointOfInterestType type) {
 
         return Registry.register(Registry.VILLAGER_PROFESSION, new Identifier(OwenFamilyMod.MOD_ID, name),
-                VillagerProfessionAccessor.create(name, type, ImmutableSet.of(), ImmutableSet.of(),
+                VillagerProfessionAccessor.create(name, type,
+                        ImmutableSet.of(Items.HONEYCOMB, Items.HONEY_BOTTLE),
+                        ImmutableSet.of(Blocks.BEEHIVE, Blocks.HONEYCOMB_BLOCK),
                         SoundEvents.ENTITY_VILLAGER_CELEBRATE));
 
     }
