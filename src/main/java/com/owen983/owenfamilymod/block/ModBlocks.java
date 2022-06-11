@@ -1,6 +1,7 @@
 package com.owen983.owenfamilymod.block;
 
 import com.owen983.owenfamilymod.OwenFamilyMod;
+import com.owen983.owenfamilymod.item.ModItemGroup;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.BeehiveBlock;
@@ -17,7 +18,7 @@ public class ModBlocks {
 
     public static final Block OWEN_BEEKEEPER_BLOCK = registerBlock("owen_beekeeper_block",
             new BeehiveBlock(FabricBlockSettings.copyOf(Blocks.BEEHIVE)),
-            ItemGroup.MISC);
+            ModItemGroup.BEEKEEPER);
 
     private static Block registerBlock(String name, Block block, ItemGroup itemGroup){
         registerBlockItem(name, block, itemGroup);
