@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "item": "owenfamilymod:beekeeper_suit_helmet"
+    },
+    "title": "Music!",
+    "description": "A reward for going where the music takes you",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "owenfamilymod:owenfamilymod",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "owenfamilymod:beekeeper_suit_helmet",
+              "owenfamilymod:beekeeper_suit_chestplate",
+              "owenfamilymod:beekeeper_suit_leggings",
+              "owenfamilymod:beekeeper_suit_boots"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}
