@@ -28,5 +28,6 @@ public class OwenFamilyMod implements ModInitializer {
         ModVillagers.setupPOIs();
         ModRegistries.registerModStuffs();
         ModLootTableModifiers.modifyLootTables();
+
     }
 }

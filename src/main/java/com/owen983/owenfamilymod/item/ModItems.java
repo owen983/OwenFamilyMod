@@ -1,6 +1,7 @@
 package com.owen983.owenfamilymod.item;
 
 import com.owen983.owenfamilymod.OwenFamilyMod;
+import com.owen983.owenfamilymod.item.custom.ModArmorItem;
 import com.owen983.owenfamilymod.item.custom.ModMusicDiscItem;
 import com.owen983.owenfamilymod.sound.ModSounds;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
@@ -18,7 +19,7 @@ public class ModItems {
                     new FabricItemSettings().group(ItemGroup.MISC).maxCount(1)));
 
     public static final Item BEEKEEPER_SUIT_HELMET = registerItem("beekeeper_suit_helmet",
-            new ArmorItem(ModArmorMaterials.WHITE_COTTON_CANVAS, EquipmentSlot.HEAD,
+            new ModArmorItem(ModArmorMaterials.WHITE_COTTON_CANVAS, EquipmentSlot.HEAD,
                     new FabricItemSettings().group(ModItemGroup.BEEKEEPER).maxDamage(5)));
     public static final Item BEEKEEPER_SUIT_CHESTPLATE = registerItem("beekeeper_suit_chestplate",
             new ArmorItem(ModArmorMaterials.WHITE_COTTON_CANVAS, EquipmentSlot.CHEST,
