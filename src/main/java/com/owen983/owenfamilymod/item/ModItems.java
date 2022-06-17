@@ -1,6 +1,7 @@
 package com.owen983.owenfamilymod.item;
 
 import com.owen983.owenfamilymod.OwenFamilyMod;
+import com.owen983.owenfamilymod.entity.ModEntities;
 import com.owen983.owenfamilymod.item.custom.ModArmorItem;
 import com.owen983.owenfamilymod.item.custom.ModMusicDiscItem;
 import com.owen983.owenfamilymod.sound.ModSounds;
@@ -9,6 +10,7 @@ import net.minecraft.entity.EquipmentSlot;
 import net.minecraft.item.ArmorItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
+import net.minecraft.item.SpawnEggItem;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 

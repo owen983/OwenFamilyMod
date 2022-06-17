@@ -25,7 +25,7 @@ public class OwenFamilyMod implements ModInitializer {
         LOGGER.info("Hello Fabric world!");
         ModItems.registerModItems();
         ModBlocks.registerModBlocks();
-        ModVillagers.setupPOIs();
+
         ModRegistries.registerModStuffs();
         ModLootTableModifiers.modifyLootTables();
 
