@@ -1,22 +1,15 @@
 package com.owen983.owenfamilymod.util;
 
 import com.owen983.owenfamilymod.OwenFamilyMod;
+import com.owen983.owenfamilymod.entity.ModEntities;
 import com.owen983.owenfamilymod.villager.ModVillagers;
+import net.fabricmc.fabric.api.object.builder.v1.entity.FabricDefaultAttributeRegistry;
 import net.fabricmc.fabric.api.object.builder.v1.trade.TradeOfferHelper;
 import net.minecraft.enchantment.*;
-import net.minecraft.entity.EquipmentSlot;
-import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.*;
-import net.minecraft.util.collection.DefaultedList;
-import net.minecraft.util.math.MathHelper;
-import net.minecraft.util.registry.Registry;
 import net.minecraft.village.TradeOffer;
-import net.minecraft.village.VillagerProfession;
 
-import java.util.List;
-import java.util.Map;
 import java.util.Random;
-import java.util.stream.Collectors;
 
 public class ModRegistries {
     private static float chance;
@@ -24,6 +17,10 @@ public class ModRegistries {
     public static void registerModStuffs() {
         OwenFamilyMod.LOGGER.info("in registerModStuffs for " + OwenFamilyMod.MOD_ID);
         registerCustomTrades();
+        registerAttributes();
+    }
+
+    private static void registerAttributes(){
     }
 
     private static void registerCustomTrades() {
